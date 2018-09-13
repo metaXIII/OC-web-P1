@@ -199,3 +199,27 @@
 .align-content-start {
     align-content: start;
 }
+
+.caption-text {
+    position: relative;
+    background-color:#000;
+    opacity: 0.75;
+    bottom:68px;
+    height: 65px;
+    visibility: hidden;
+    color: #fff;
+    margin-bottom: -68px;
+}
+
+.caption:hover div {
+    visibility: visible;
+}
+
+.caption {
+    color: #fff;
+    text-decoration: none;
+}
+
+.mb-0 {
+    margin-bottom: 0;
+}
