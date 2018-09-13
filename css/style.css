@@ -1,0 +1,59 @@
+/**
+    Azure: #3491b2
+ */
+
+.header {
+    height: 100px;
+    position: fixed;
+    z-index: 1;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    vertical-align: baseline;
+}
+
+.logoAgency {
+    position: absolute;
+    top: 35px;
+}
+
+.navbar {
+    display: flex;
+    vertical-align: middle;
+    margin-right: 10%;
+    width: auto;
+}
+
+.nav {
+    display: inline-block;
+}
+
+.navbar-nav {
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.nav-item, .nav-item:visited, .nav-item:active, .nav-item:hover {
+    height: 60px;
+    padding-top: 30px;
+    display: block;
+    font-size: 20px;
+    color: #000;
+    text-decoration: none;
+}
+
+.nav-item:active, .nav-item:hover {
+    border-top: 3px solid #3491b2;
+}
+
+.m-auto {
+    margin: auto;
+}
+
+.menu {
+    display: flex;
+    padding-top: 20px;
+}
+
+
