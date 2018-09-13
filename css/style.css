@@ -1,6 +1,6 @@
-/**
-    Azure: #3491b2
- */
+body {
+    font-family: 'Roboto', sans-serif;
+}
 
 .header {
     height: 100px;
@@ -12,6 +12,8 @@
     justify-content: space-between;
     vertical-align: baseline;
     background-color: #fff;
+    border: 1px solid #fff;
+    border-radius: 0px 5px 5px 0px;
 }
 
 .logoAgency {
@@ -63,6 +65,7 @@
 }
 
 .slogan {
+    color: #fff;
     width: 40%;
     position: absolute;
     top: 40%;
@@ -147,15 +150,22 @@
 }
 
 .button {
+    padding: 10px 15px 10px 15px;
     background-color: #e5e5e5;
     color: #777a7e;
     border: 1px solid #e5e5e5;
+    border-radius: 7px;
+    text-decoration: none;
 }
 
 .active {
     background-color: #3491b2;
     color: #fff;
     border: 1px solid #3491b2;
+}
+
+.active:active {
+    color: #2a748e !important;
 }
 
 .button:hover + span {
@@ -250,4 +260,42 @@
 
 .map {
     height: 800px;
+}
+
+.border-bottom-dotted {
+    border-bottom: 1px dotted #777a7e;
+}
+
+.azure {
+    color: #3491b2
+}
+
+.bold {
+    font-weight: bold;
+}
+
+.xx-large {
+    font-size: 30px;
+}
+
+/**
+Small and Xtra Small
+ */
+@media screen and (max-width: 720px) {
+    .header {
+        height: 150px;
+        flex-direction: column;
+    }
+
+    .menu {
+        padding-top: 80px;
+    }
+
+    .presentation {
+        padding-top: 150px;
+    }
+
+    .nav-item:active, .nav-item:hover {
+        border-top: none;
+    }
 }
