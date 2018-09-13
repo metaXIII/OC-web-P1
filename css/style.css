@@ -11,6 +11,7 @@
     flex-direction: row;
     justify-content: space-between;
     vertical-align: baseline;
+    background-color: #fff;
 }
 
 .logoAgency {
@@ -56,4 +57,19 @@
     padding-top: 20px;
 }
 
+.presentation {
+    width: 100%;
+    padding-top: 100px;
+}
 
+.slogan {
+    width: 40%;
+    position: absolute;
+    top:40%;
+    left: 5%;
+}
+
+.slide {
+    position: relative;
+    text-align: center;
+}
