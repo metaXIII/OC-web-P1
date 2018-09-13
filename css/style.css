@@ -1,0 +1,301 @@
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+.header {
+    height: 100px;
+    position: fixed;
+    z-index: 1;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    vertical-align: baseline;
+    background-color: #fff;
+    border: 1px solid #fff;
+    border-radius: 0px 5px 5px 0px;
+}
+
+.logoAgency {
+    position: absolute;
+    top: 35px;
+}
+
+.navbar {
+    display: flex;
+    vertical-align: middle;
+    margin-right: 10%;
+    width: auto;
+}
+
+.nav {
+    display: inline-block;
+}
+
+.navbar-nav {
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.nav-item, .nav-item:visited, .nav-item:active, .nav-item:hover {
+    height: 60px;
+    padding-top: 30px;
+    display: block;
+    font-size: 20px;
+    color: #000;
+    text-decoration: none;
+}
+
+.nav-item:active, .nav-item:hover {
+    border-top: 3px solid #3491b2;
+}
+
+.m-auto {
+    margin: auto;
+}
+
+.menu {
+    display: flex;
+    padding-top: 20px;
+}
+
+.presentation {
+    width: 100%;
+    padding-top: 100px;
+}
+
+.slogan {
+    color: #fff;
+    width: 40%;
+    position: absolute;
+    top: 40%;
+    left: 5%;
+}
+
+.slide {
+    position: relative;
+    text-align: center;
+}
+
+.text-align-center {
+    text-align: center;
+}
+
+.w-10 {
+    width: 10%;
+}
+
+.w-20 {
+    width: 20%;
+}
+
+.w-25 {
+    width: 25%;
+}
+
+.w-40 {
+    width: 40%;
+}
+
+.w-50 {
+    width: 50%;
+}
+
+.w-60 {
+    width: 60%;
+}
+
+.w-80 {
+    width: 80%;
+}
+
+.w-90 {
+    width: 90%;
+}
+
+.flex {
+    display: flex;
+}
+
+.flexwrap {
+    flex-wrap: wrap;
+}
+
+.mt-5 {
+    margin-top: 5%;
+}
+
+.space-around {
+    justify-content: space-between;
+}
+
+.left-service {
+    min-width: 360px;
+}
+
+.mb-5 {
+    margin-bottom: 5%;
+}
+
+.service {
+    background-color: #fefefe;
+}
+
+.projet {
+    background-color: #f5f5f5;
+}
+
+.relative {
+    position: relative;
+}
+
+.button {
+    padding: 10px 15px 10px 15px;
+    background-color: #e5e5e5;
+    color: #777a7e;
+    border: 1px solid #e5e5e5;
+    border-radius: 7px;
+    text-decoration: none;
+}
+
+.active {
+    background-color: #3491b2;
+    color: #fff;
+    border: 1px solid #3491b2;
+}
+
+.active:active {
+    color: #2a748e !important;
+}
+
+.button:hover + span {
+    display: block;
+}
+
+.button:hover {
+    background-color: #3491b2;
+    color: #fff;
+    border: 1px solid #3491b2;
+}
+
+.arrow-down {
+    position: absolute;
+    width: 0;
+    height: 0;
+    top: 100%;
+    left: calc(50% - 12px);
+    border-left: 12px solid transparent;
+    border-right: 12px solid transparent;
+    border-top: 12px solid #3491b2;
+    display: none;
+}
+
+.flex-start {
+    justify-content: flex-start;
+}
+
+.pl-1 {
+    padding-left: 1%;
+}
+
+.image__projet {
+    padding: 15px;
+    min-width: 340px;
+    min-height: 240px;
+}
+
+.space-between {
+    justify-content: space-between;
+}
+
+.align-content-start {
+    align-content: start;
+}
+
+.caption-text {
+    position: relative;
+    background-color: #000;
+    opacity: 0.75;
+    bottom: 68px;
+    height: 65px;
+    visibility: hidden;
+    color: #fff;
+    margin-bottom: -68px;
+}
+
+.caption:hover div {
+    visibility: visible;
+}
+
+.caption {
+    color: #fff;
+    text-decoration: none;
+}
+
+.mb-0 {
+    margin-bottom: 0;
+}
+
+#app {
+    position: relative;
+    width: 100%;
+}
+
+#app iframe {
+    width: 100%;
+    height: 800px;
+}
+
+.form {
+    margin-bottom: -600px;
+    background-color: #e8f2fc;
+    opacity: 0.8;
+    height: 480px;
+    width: 400px;
+    position: relative;
+    bottom: 600px;
+    float: right;
+    right: 5%;
+}
+
+.map {
+    height: 800px;
+}
+
+.border-bottom-dotted {
+    border-bottom: 1px dotted #777a7e;
+}
+
+.azure {
+    color: #3491b2
+}
+
+.bold {
+    font-weight: bold;
+}
+
+.xx-large {
+    font-size: 30px;
+}
+
+/**
+Small and Xtra Small
+ */
+@media screen and (max-width: 720px) {
+    .header {
+        height: 150px;
+        flex-direction: column;
+    }
+
+    .menu {
+        padding-top: 80px;
+    }
+
+    .presentation {
+        padding-top: 150px;
+    }
+
+    .nav-item:active, .nav-item:hover {
+        border-top: none;
+    }
+}
