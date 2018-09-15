@@ -321,14 +321,6 @@ h1 {
     font-size: 30px;
 }
 
-.arrow {
-    width: 10px;
-    height: 10px;
-    border-color: #000;
-    position: absolute;
-    top: 30px;
-}
-
 .prev {
     border-bottom: 2px solid;
     border-left: 2px solid;
@@ -508,4 +500,40 @@ Small and Xtra Small
 
 .justify-content-center {
     justify-content: center;
+}
+
+.font-chevron {
+    border-radius: 100%;
+    justify-content: center;
+    align-items: center;
+    width: 90px;
+    height: 100px;
+    cursor: pointer;
+    background-color: rgba(0,0,0,0.3);
+    position: absolute;
+}
+
+.fa-chevron-left, .fa-chevron-right{
+    position: relative;
+    font-size: 30px;
+}
+
+.left-chevron {
+    left: -40px;
+}
+
+.right-chevron {
+    right: -40px;
+}
+
+.fa-chevron-left {
+    left: 15%;
+}
+
+.fa-chevron-right {
+    right: 15%;
+}
+
+.pb-1 {
+    padding-bottom: 1%;
 }
