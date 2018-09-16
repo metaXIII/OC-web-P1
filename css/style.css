@@ -101,6 +101,7 @@ h1 {
 
 .presentation {
     width: 100%;
+    overflow: hidden;
     padding-top: 100px;
 }
 
@@ -110,12 +111,28 @@ h1 {
     left: 2.5%;
     color: #fff;
     position: absolute;
-    top: 40%;
+    margin-top: -20%;
 }
 
 .slide {
-    position: relative;
     text-align: center;
+    margin: 0;
+    width: 100%;
+}
+
+@keyframes autoslide {
+    0%, 100%, 25% {
+        transform: translateX(0);
+    }
+    50%, 75% {
+        transform: translateX(-50%);
+    }
+}
+
+.slider {
+    display: flex;
+    width: 200%;
+    animation: autoslide 30s infinite;
 }
 
 .text-align-center {
@@ -204,14 +221,14 @@ h1 {
     background-color: #3491b2;
     color: #fff;
     border: 1px solid #3491b2;
-    border-bottom: 5px solid #2a748e;
+    border-bottom: 3px solid #2a748e;
 }
 
 .active:active {
     color: #2a748e !important;
 }
 
-.button:hover + span {
+.button:hover + span, .active + span {
     display: block;
 }
 
@@ -219,6 +236,7 @@ h1 {
     background-color: #3491b2;
     color: #fff;
     border: 1px solid #3491b2;
+    border-bottom: 3px solid #2a748e;
 }
 
 .arrow-down {
@@ -229,7 +247,7 @@ h1 {
     left: calc(50% - 12px);
     border-left: 12px solid transparent;
     border-right: 12px solid transparent;
-    border-top: 12px solid #3491b2;
+    border-top: 12px solid #2a748e;
     display: none;
 }
 
@@ -264,6 +282,7 @@ h1 {
     visibility: hidden;
     color: #fff;
     margin-bottom: -68px;
+    padding-right: 20%;
 }
 
 .caption:hover div {
@@ -366,7 +385,6 @@ h1 {
     text-align: left;
 }
 
-
 .descriptif {
     width: 40%;
     margin-left: 10%;
@@ -374,8 +392,8 @@ h1 {
 
 .service-color-text {
     color: #64686d;
+    line-height: 1.5em;
 }
-
 
 .blue-circle {
     border: 5px solid #3491b2;
@@ -397,6 +415,7 @@ h1 {
     width: 85px;
     height: 1px;
 }
+
 .right-bar {
     margin-top: 15px;
     background-color: #dedede;
@@ -415,12 +434,63 @@ h1 {
     width: 50%;
 }
 
-
 .l-32 {
     line-height: 32px;
 }
 
+.titre {
+    font-size: 26px;
+    color: #000;
+    font-family: 'Roboto-bold';
+}
 
+.pt-5 {
+    padding-top: 5%;
+}
+
+.pt-3 {
+    padding-top: 3%;
+}
+
+.justify-content-center {
+    justify-content: center;
+}
+
+.font-chevron {
+    border-radius: 100%;
+    justify-content: center;
+    align-items: center;
+    width: 90px;
+    height: 80px;
+    cursor: pointer;
+    background-color: rgba(0, 0, 0, 0.3);
+    position: absolute;
+}
+
+.fa-chevron-left, .fa-chevron-right {
+    position: relative;
+    font-size: 30px;
+}
+
+.left-chevron {
+    left: -40px;
+}
+
+.right-chevron {
+    right: -40px;
+}
+
+.fa-chevron-left {
+    left: 15%;
+}
+
+.fa-chevron-right {
+    right: 15%;
+}
+
+.pb-1 {
+    padding-bottom: 1%;
+}
 
 @media screen and (max-width: 992px) {
     .header {
@@ -445,6 +515,7 @@ h1 {
     .slogan {
         position: inherit;
         color: #000;
+        margin-top: 0%;
     }
 
     .arrow {
@@ -484,56 +555,41 @@ Small and Xtra Small
     }
 }
 
-.titre {
-    font-size: 26px;
-    color: #000;
-    font-family: 'Roboto-bold';
-}
-
-.pt-5 {
-    padding-top: 5%;
-}
-
-.pt-3 {
-    padding-top: 3%;
-}
-
-.justify-content-center {
-    justify-content: center;
-}
-
-.font-chevron {
-    border-radius: 100%;
-    justify-content: center;
-    align-items: center;
-    width: 90px;
-    height: 100px;
-    cursor: pointer;
-    background-color: rgba(0,0,0,0.3);
+.default {
     position: absolute;
+    width: 0;
+    height: 0;
+    top: 100%;
+    left: calc(50% - 12px);
+    border-left: 12px solid transparent;
+    border-right: 12px solid transparent;
+    border-top: 12px solid #3491b2;
+    display: none;
 }
 
-.fa-chevron-left, .fa-chevron-right{
-    position: relative;
-    font-size: 30px;
+.flex-column {
+    flex-direction: column;
 }
 
-.left-chevron {
-    left: -40px;
+.pb-5 {
+    padding-bottom: 5%;
 }
 
-.right-chevron {
-    right: -40px;
+.eye-caption {
+    top: -20px;
+    position: absolute;
+    height: 40px;
+    width: 40px;
+    left: 80%;
+    bottom: 25%;
+    align-items: center;
+    text-align: center;
+    background-color: #3491b2;
+    border: 2px solid #fff;
+    border-radius: 50%;
 }
 
-.fa-chevron-left {
-    left: 15%;
-}
 
-.fa-chevron-right {
-    right: 15%;
-}
-
-.pb-1 {
-    padding-bottom: 1%;
+.fa-eye {
+    margin-top: 35%;
 }
