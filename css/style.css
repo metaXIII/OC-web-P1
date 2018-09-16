@@ -101,6 +101,7 @@ h1 {
 
 .presentation {
     width: 100%;
+    overflow: hidden;
     padding-top: 100px;
 }
 
@@ -110,12 +111,28 @@ h1 {
     left: 2.5%;
     color: #fff;
     position: absolute;
-    top: 40%;
+    margin-top: -20%;
 }
 
 .slide {
-    position: relative;
     text-align: center;
+    margin: 0;
+    width: 100%;
+}
+
+@keyframes autoslide {
+    0%, 100%, 25% {
+        transform: translateX(0);
+    }
+    50%, 75% {
+        transform: translateX(-50%);
+    }
+}
+
+.slider {
+    display: flex;
+    width: 200%;
+    animation: autoslide 100000s infinite ease-in-out;
 }
 
 .text-align-center {
@@ -366,7 +383,6 @@ h1 {
     text-align: left;
 }
 
-
 .descriptif {
     width: 40%;
     margin-left: 10%;
@@ -375,7 +391,6 @@ h1 {
 .service-color-text {
     color: #64686d;
 }
-
 
 .blue-circle {
     border: 5px solid #3491b2;
@@ -397,6 +412,7 @@ h1 {
     width: 85px;
     height: 1px;
 }
+
 .right-bar {
     margin-top: 15px;
     background-color: #dedede;
@@ -415,12 +431,63 @@ h1 {
     width: 50%;
 }
 
-
 .l-32 {
     line-height: 32px;
 }
 
+.titre {
+    font-size: 26px;
+    color: #000;
+    font-family: 'Roboto-bold';
+}
 
+.pt-5 {
+    padding-top: 5%;
+}
+
+.pt-3 {
+    padding-top: 3%;
+}
+
+.justify-content-center {
+    justify-content: center;
+}
+
+.font-chevron {
+    border-radius: 100%;
+    justify-content: center;
+    align-items: center;
+    width: 90px;
+    height: 80px;
+    cursor: pointer;
+    background-color: rgba(0, 0, 0, 0.3);
+    position: absolute;
+}
+
+.fa-chevron-left, .fa-chevron-right {
+    position: relative;
+    font-size: 30px;
+}
+
+.left-chevron {
+    left: -40px;
+}
+
+.right-chevron {
+    right: -40px;
+}
+
+.fa-chevron-left {
+    left: 15%;
+}
+
+.fa-chevron-right {
+    right: 15%;
+}
+
+.pb-1 {
+    padding-bottom: 1%;
+}
 
 @media screen and (max-width: 992px) {
     .header {
@@ -445,6 +512,7 @@ h1 {
     .slogan {
         position: inherit;
         color: #000;
+        margin-top: 0%;
     }
 
     .arrow {
@@ -484,56 +552,5 @@ Small and Xtra Small
     }
 }
 
-.titre {
-    font-size: 26px;
-    color: #000;
-    font-family: 'Roboto-bold';
-}
 
-.pt-5 {
-    padding-top: 5%;
-}
 
-.pt-3 {
-    padding-top: 3%;
-}
-
-.justify-content-center {
-    justify-content: center;
-}
-
-.font-chevron {
-    border-radius: 100%;
-    justify-content: center;
-    align-items: center;
-    width: 90px;
-    height: 100px;
-    cursor: pointer;
-    background-color: rgba(0,0,0,0.3);
-    position: absolute;
-}
-
-.fa-chevron-left, .fa-chevron-right{
-    position: relative;
-    font-size: 30px;
-}
-
-.left-chevron {
-    left: -40px;
-}
-
-.right-chevron {
-    right: -40px;
-}
-
-.fa-chevron-left {
-    left: 15%;
-}
-
-.fa-chevron-right {
-    right: 15%;
-}
-
-.pb-1 {
-    padding-bottom: 1%;
-}
