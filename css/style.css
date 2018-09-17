@@ -11,6 +11,11 @@ h1 {
     font-size: 46px;
 }
 
+h3 {
+    color: #000;
+    font-size: 30px;
+}
+
 .roboto {
     font-family: 'Roboto';
 }
@@ -26,7 +31,7 @@ h1 {
 .header {
     height: 100px;
     position: fixed;
-    z-index: 1;
+    z-index: 10;
     width: 100%;
     display: flex;
     flex-direction: row;
@@ -309,8 +314,9 @@ h1 {
 }
 
 .form {
+    z-index: 3;
     margin-bottom: -600px;
-    background-color: #e8f2fc;
+    background-color: rgba(255,255,255,1);
     opacity: 0.8;
     height: 480px;
     width: 400px;
@@ -318,6 +324,8 @@ h1 {
     bottom: 600px;
     float: right;
     right: 5%;
+    padding: 20px;
+    color: #64686d;
 }
 
 .map {
@@ -592,4 +600,13 @@ Small and Xtra Small
 
 .fa-eye {
     margin-top: 35%;
+}
+
+.overlay {
+    width: 100%;
+    height: 800px;
+    position: absolute;
+    z-index: 1;
+    background-color: rgba(0,127,255,0.2);
+    pointer-events: none;
 }
