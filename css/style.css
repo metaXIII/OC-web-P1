@@ -306,7 +306,7 @@ h1, h2, h3 {
 
 .image__projet {
     padding: 15px;
-    min-width: 340px;
+    min-width: 250px;
     min-height: 240px;
 }
 
@@ -753,6 +753,10 @@ input, textarea {
 
     #app iframe {
         height: 400px;
+    }
+
+    .navbar {
+        margin-right: 0;
     }
 }
 
