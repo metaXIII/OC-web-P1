@@ -444,6 +444,7 @@ h1,h2,h3 {
 }
 
 .titre {
+    margin-bottom: 1%;
     font-size: 26px;
     color: #000;
     font-family: 'Roboto-bold';
