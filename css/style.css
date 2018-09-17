@@ -276,17 +276,17 @@ h1 {
 .caption-text {
     position: relative;
     background-color: #000;
-    opacity: 0.75;
+    opacity: 0;
     bottom: 68px;
     height: 65px;
-    visibility: hidden;
     color: #fff;
     margin-bottom: -68px;
     padding-right: 20%;
+    transition: opacity 0.5s ease-in;
 }
 
 .caption:hover div {
-    visibility: visible;
+    opacity: 0.8;
 }
 
 .caption {
