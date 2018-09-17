@@ -137,7 +137,7 @@ h3 {
 .slider {
     display: flex;
     width: 200%;
-    animation: autoslide 30s infinite;
+    animation: autoslide 8s infinite;
 }
 
 .text-align-center {
@@ -609,4 +609,9 @@ Small and Xtra Small
     z-index: 1;
     background-color: rgba(0,127,255,0.2);
     pointer-events: none;
+}
+
+
+.no-border-radius {
+    border-radius: 0px;
 }
