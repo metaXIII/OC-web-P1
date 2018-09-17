@@ -162,8 +162,8 @@ h1,h2,h3 {
     display: -ms-flexbox;
     display: flex;
     width: 200%;
-    -webkit-animation: autoslide 8000000000s infinite;
-    animation: autoslide 8000000000s infinite;
+    -webkit-animation: autoslide 8s infinite;
+    animation: autoslide 8s infinite;
 }
 
 .text-align-center {
