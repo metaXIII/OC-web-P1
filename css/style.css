@@ -603,6 +603,10 @@ input, textarea {
     height: 800px;
 }
 
+.pl-5 {
+    padding-left: 5%;
+}
+
 
 @media screen and (max-width: 992px) {
     .header {
@@ -688,5 +692,4 @@ Small and Xtra Small
         padding-top: 150px;
     }
 }
-
 
