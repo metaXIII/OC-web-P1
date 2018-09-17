@@ -550,6 +550,7 @@ h1,h2,h3 {
 }
 
 .container {
+    padding-bottom: 20px;
     max-width: 1600px;
     box-sizing: border-box;
     margin: auto;
