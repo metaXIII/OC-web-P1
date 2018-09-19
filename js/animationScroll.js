@@ -1,4 +1,4 @@
-$('a').click(function () {
+$('.nav-item').click(function () {
     if ($('body').width() > 998) {
         $('html, body').animate({
             scrollTop: $($(this).attr('href')).offset().top - 100
