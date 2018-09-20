@@ -269,6 +269,14 @@ iframe {
     text-decoration: none;
 }
 
+.button:focus {
+    outline: 0;
+    background-color: #3491b2;
+    color: #fff;
+    border: 1px solid #3491b2;
+    border-bottom: 3px solid #2a748e;
+}
+
 .active {
     background-color: #3491b2;
     color: #fff;
@@ -471,6 +479,7 @@ iframe {
     border: 5px solid #fff;
     border-radius: 50%;
     width: 20px;
+    height: 20px;
 }
 
 .left-bar {
