@@ -702,6 +702,10 @@ input, textarea {
         flex-direction: column;
     }
 
+    .header div {
+        margin: auto !important;
+    }
+
     .presentation {
         padding-top: 150px;
     }
