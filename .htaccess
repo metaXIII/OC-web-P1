@@ -1,0 +1,4 @@
+RewriteEngine On
+	RewriteBase /
+RewriteCond %{REQUEST_FILENAME} !-f
+ErrorDocument 404 https://www.metaxiii.fr/error
