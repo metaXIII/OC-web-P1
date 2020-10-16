@@ -49,7 +49,15 @@ Voici les différentes sections :
 ![Formulaire de contact](https://s3-eu-west-1.amazonaws.com/sdz-upload/prod/upload/maquette42.png)
 ```
 
-Tu trouveras également [ci-joint](https://s3-eu-west-1.amazonaws.com/static.oc-static.com/prod/courses/files/parcours_3wa/projet1/webagency_images.zip) le premier découpage des fichiers de la maquette. Il ne reste plus que l’intégration à réaliser. 
+Tu trouveras également
+
+```
+
+[ci-joint](https://s3-eu-west-1.amazonaws.com/static.oc-static.com/prod/courses/files/parcours_3wa/projet1/webagency_images.zip)
+
+
+```
+le premier découpage des fichiers de la maquette. Il ne reste plus que l’intégration à réaliser. 
 
 Je te laisse choisir l’hébergeur pour me présenter la nouvelle version du site. Il peut s’agir d’Heroku, Hostinger, Free, Nexgate, GitHub Pages, Google Sites ou tout autre hébergeur de ton choix.
 
