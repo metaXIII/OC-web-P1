@@ -30,6 +30,7 @@ Par ailleurs, j’aimerais également que tu rédiges le texte de présentation 
 Pour que tu ne partes pas de rien dans la refonte du site, notre graphiste, Mathieu a réalisé des maquettes que tu trouveras ci-dessous.
 
 Voici les différentes sections :
+```
 
 ### L'entête du site
 
@@ -46,7 +47,7 @@ Voici les différentes sections :
 ### Formulaire de contact
 
 ![Formulaire de contact](https://s3-eu-west-1.amazonaws.com/sdz-upload/prod/upload/maquette42.png)
-
+```
 
 Tu trouveras également [ci-joint](https://s3-eu-west-1.amazonaws.com/static.oc-static.com/prod/courses/files/parcours_3wa/projet1/webagency_images.zip) le premier découpage des fichiers de la maquette. Il ne reste plus que l’intégration à réaliser. 
 
