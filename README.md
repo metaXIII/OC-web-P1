@@ -85,7 +85,8 @@ Ouvrir le fichier index.html
 
 ## Copyrigth : 
 
-Ce projet est en licence libre, toutefois n'hésitez pas à ajouter une étoile à ce projet s'il vous a été utile. Vous pouvez également me contacter par mail à l'adresse gael.lehchibi@outlook.com.
+Ce projet est en licence libre, toutefois n'hésitez pas à ajouter une étoile à ce projet s'il vous a été utile.
+ Vous pouvez également me contacter par mail à l'adresse [contact@metaxiii.fr](mailto:contact@metaxiii.fr).
 
 Merci.
 
